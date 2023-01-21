@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    border: 1px solid red;
+}
+.logo img{
+    width: 50%;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+    padding-top: 10px;
+
+}
+.menu ul li a:hover{
+    color: red;
+    box-shadow: 10px  5px 10px green;
+}
+.icon img{
+    width: 20%;
+    padding-top: 5px;
+}
+/* ///navigation ber */
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index:1;
+    top: 0;
+    left: -50px;
+    background-color:black;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color:red;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 45px;
+    font-size: 40px;
+  }
+  .sp{
+    color: white;
+    font-size:30px;
+    cursor:pointer;
+    /* padding-top: 15px; */
+    display: none;
+  }
+  .strong{
+    font-size: 22px;
+  }
+  .img img{
+    width: 80%;
+    border: 1px solid red;
+  }
+  .img img{
+    transform: scale(.9);
+    transition: all .5s;
+  }
+  .img img:hover{
+    transform: scale(1)
+  }
+  .icon_a1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon_a1 img{
+    width: 50%;
+  }
+  .icon_a{
+    border: 1px solid red;
+    background-color: antiquewhite;
+  }
+  .stro{
+    font-size: 20px;
+  }
+  p{
+    font-size: 15px;
+  
+  }
+  .text_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg{
+   padding: 15px 10px;
+    
+  } 
+
+  .bg1{
+    margin: 7px 0px;
+    border-radius:20px;
+    
+  }
+  .bg1 a{
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+  }
+.slide img{
+  width: 100%;
+}
+.f_img img{
+  width: 50%;
+}
+.st{
+  font-size: 22px;
+  color: red;
+}
+.f p{
+  color: white;
+}
+.header{
+  top: 0;
+ position: sticky;
+  z-index: 1;
+}
+.contianer{
+  overflow: hidden;
+}
